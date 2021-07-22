@@ -11,7 +11,7 @@
 /*Elementos base*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -80,4 +80,27 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 10%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.genero{
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
